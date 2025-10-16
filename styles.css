@@ -43,3 +43,25 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.score-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.score-value {
+  font-size: 18px;
+  margin: 0;
+}
+
+#restart {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #FFC907;
+  /* Yellow */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
