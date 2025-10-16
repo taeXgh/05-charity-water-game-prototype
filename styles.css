@@ -13,9 +13,33 @@ Secondary Colors:
 - Pink:       #F16061
 
 */
+@font-face {
+  font-family: "Clear Sans";
+  /* set name */
+  src: url(assets/ClearSans-Regular.woff);
+  /* url of the font */
+}
 
 body {
   font-family: "Clear Sans", sans-serif;
-  background-color: #8BD1CB; /* Light Blue */
+  background-color: #8BD1CB;
+  /* Light Blue */
 }
 
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 10px; /* space between tiles */
+  padding: 10px;
+  background-color: #2E9DF7;
+  justify-content: center;
+}
+
+.grid-tile {
+  width: 80px;
+  height: 80px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
